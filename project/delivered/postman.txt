@@ -1,0 +1,120 @@
+Output from Postman
+Initialize the Database
+{
+    "dataset": {
+        "created": "Tue, 09 May 2023 17:02:36 GMT",
+        "description": "initialize the DB",
+        "id": 5,
+        "location": "home",
+        "name": "init db"
+    },
+    "status": {
+        "message": "101: Created.",
+        "records": 1,
+        "success": true
+    }
+}
+
+2. Register a User :
+
+{
+    "dataset": {
+        "created": "Tue, 09 May 2023 17:04:02 GMT",
+        "email": "abdulrahman.salama@gmail.com",
+        "id": 2,
+        "role": 0,
+        "token": "RPOB4ABQUJZ0KP5K6AOOVJYGFVK5A71KDEBAHW6YC4MFP6WISK",
+        "username": "ubuntu"
+    },
+    "status": {
+        "message": "101: Created.",
+        "records": 1,
+        "success": true
+    }
+}
+
+3. Create Event : 
+
+{
+    "dataset": {
+        "created": "Tue, 09 May 2023 17:05:23 GMT",
+        "description": "created event",
+        "id": 6,
+        "location": "Christmas Island",
+        "name": "Bee-eater, carmine"
+    },
+    "status": {
+        "message": "101: Created.",
+        "records": 1,
+        "success": true
+    }
+}
+
+4.  Get All Events
+{
+    "dataset": {
+        "1": {
+            "created": "Tue, 14 Sep 2021 18:29:04 GMT",
+            "description": "initialize the DB",
+            "id": 1,
+            "location": "home",
+            "name": "init db"
+        },
+        "2": {
+            "created": "Tue, 14 Sep 2021 18:29:15 GMT",
+            "description": "created event",
+            "id": 2,
+            "location": "Senegal",
+            "name": "Capuchin, weeper"
+        },
+        "3": {
+            "created": "Tue, 14 Sep 2021 18:34:40 GMT",
+            "description": "created event",
+            "id": 3,
+            "location": "Romania",
+            "name": "Asian red fox"
+        },
+        "4": {
+            "created": "Tue, 14 Sep 2021 19:05:28 GMT",
+            "description": "created event",
+            "id": 4,
+            "location": "Greenland",
+            "name": "Ground legaan"
+        },
+        "5": {
+            "created": "Tue, 09 May 2023 17:02:36 GMT",
+            "description": "initialize the DB",
+            "id": 5,
+            "location": "home",
+            "name": "init db"
+        },
+        "6": {
+            "created": "Tue, 09 May 2023 17:05:23 GMT",
+            "description": "created event",
+            "id": 6,
+            "location": "Christmas Island",
+            "name": "Bee-eater, carmine"
+        }
+    },
+    "status": {
+        "message": "100: No Message.",
+        "records": 6,
+        "success": true
+    }
+}
+
+5. Get Event by Id
+{
+    "dataset": {
+        "created": "Tue, 09 May 2023 17:05:23 GMT",
+        "description": "created event",
+        "id": 6,
+        "location": "Christmas Island",
+        "name": "Bee-eater, carmine"
+    },
+    "status": {
+        "message": "100: No Message.",
+        "records": 1,
+        "success": true
+    }
+}

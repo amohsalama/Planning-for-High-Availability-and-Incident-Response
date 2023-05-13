@@ -48,3 +48,9 @@ resource "aws_security_group" "ec2_sg" {
     Name = "ec2_sg"
   }
 }
+resource "aws_lb_target_group_attachment" "flask" {
+  count = var.instance_count
+  target_group_arn = var.lb_target_group
+  target_id        = aws_instance.ubuntu[count.index].id
+  port             = 80
+}

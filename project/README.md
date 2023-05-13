@@ -60,8 +60,8 @@ Clone the appropriate git repo with the starter code. There will be 2 folders. Z
     - `curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash`
 
 - terraform
-    - `wget https://releases.hashicorp.com/terraform/1.0.7/terraform_1.0.7_linux_amd64.zip`
-    - `unzip terraform_1.0.7_linux_amd64.zip`
+    - `wget https://releases.hashicorp.com/terraform/1.4.6/terraform_1.4.6_linux_amd64.zip`
+    - `unzip terraform_1.4.6_linux_amd64.zip`
     - `mkdir ~/bin`
     - `mv terraform ~/bin`
     - `export TF_PLUGIN_CACHE_DIR="/tmp"`
@@ -118,11 +118,17 @@ sudo systemctl restart nginx
     Change directories to your project directory `cd ../..`
 
     `kubectl create secret generic additional-scrape-configs --from-file=prometheus-additional.yaml --namespace monitoring`
+    output 
+    `secret/additional-scrape-configs created`
 
     `helm repo add prometheus-community https://prometheus-community.github.io/helm-charts`
+    output
+    `"prometheus-community" has been added to your repositories`
 
-    `helm install prometheus prometheus-community/kube-prometheus-stack -f "values.yaml" --namespace monitoring`
-
+    `helm install prometheus prometheus-community/kube-prometheus-stack -f "values.yaml" --namespace monitoring --debug`
+    output
+    ``
+<!-- `helm install prometheus-blackbox-exporter prometheus-community/prometheus-blackbox-exporter -f "blackbox-values.yaml" --namespace monitoring` -->
 <!-- `helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring` -->
 
 <!-- 10. Port forward

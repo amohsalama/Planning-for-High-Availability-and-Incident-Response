@@ -1,0 +1,554 @@
+{
+	"id": "a12e2c6f-6408-47fa-8019-7a1e1d74d7f3",
+	"name": "SRE Project",
+	"timestamp": "2023-05-09T17:09:48.330Z",
+	"collection_id": "2040739-c926fea9-97fd-4007-8ef8-d423d5cbf65b",
+	"folder_id": 0,
+	"environment_id": "2040739-3c7c9863-8799-4b43-9ebb-3dcbb464a12a",
+	"totalPass": 30,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-09T17:09:15.462Z",
+	"totalFail": 170,
+	"results": [
+		{
+			"id": "ea06acb9-252a-41c9-a5df-7a8440357a53",
+			"name": "Get All Events",
+			"url": "http://18.218.71.71/events",
+			"time": 212,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Success check": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 85
+				},
+				"Success check": {
+					"pass": 15,
+					"fail": 85
+				}
+			},
+			"times": [
+				389,
+				222,
+				365,
+				231,
+				219,
+				332,
+				296,
+				297,
+				342,
+				281,
+				303,
+				233,
+				228,
+				205,
+				192,
+				196,
+				202,
+				182,
+				183,
+				185,
+				203,
+				278,
+				312,
+				314,
+				313,
+				295,
+				229,
+				338,
+				249,
+				274,
+				228,
+				187,
+				312,
+				297,
+				307,
+				307,
+				321,
+				257,
+				204,
+				184,
+				185,
+				189,
+				184,
+				195,
+				296,
+				182,
+				185,
+				220,
+				227,
+				313,
+				246,
+				315,
+				314,
+				236,
+				332,
+				266,
+				221,
+				192,
+				186,
+				191,
+				187,
+				192,
+				205,
+				185,
+				190,
+				291,
+				189,
+				187,
+				238,
+				204,
+				192,
+				185,
+				243,
+				185,
+				193,
+				291,
+				185,
+				186,
+				259,
+				307,
+				313,
+				299,
+				287,
+				499,
+				277,
+				188,
+				187,
+				196,
+				188,
+				187,
+				185,
+				189,
+				190,
+				192,
+				237,
+				185,
+				188,
+				191,
+				190,
+				212
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": true,
+					"Success check": true
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				},
+				{
+					"Status code is 200": false,
+					"Success check": false
+				}
+			]
+		}
+	],
+	"count": 100,
+	"totalTime": 24041,
+	"collection": {
+		"requests": [
+			{
+				"id": "ea06acb9-252a-41c9-a5df-7a8440357a53",
+				"method": "GET"
+			}
+		]
+	}
+}

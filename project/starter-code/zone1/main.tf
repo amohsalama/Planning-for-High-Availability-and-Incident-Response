@@ -15,7 +15,7 @@ locals {
 
    account_owner = local.name
    name          = "${local.name}-project"
-   azs           = ["us-east-2a","us-east-2b"]
+   azs           = var.primary_availability_zones
    private_subnet_tags = {
      "kubernetes.io/role/internal-elb" = 1
    }
@@ -30,7 +30,7 @@ locals {
 
    account_owner = local.name
    name          = "${local.name}-project"
-   azs           = ["us-west-1b","us-west-1c"]
+   azs           = var.secondary_availability_zones
    private_subnet_tags = {
      "kubernetes.io/role/internal-elb" = 1
    }

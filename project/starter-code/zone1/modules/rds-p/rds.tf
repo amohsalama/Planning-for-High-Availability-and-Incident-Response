@@ -49,7 +49,7 @@ resource "aws_rds_cluster" "udacity_cluster" {
   skip_final_snapshot      = true
   storage_encrypted        = false
   depends_on = [aws_rds_cluster_parameter_group.cluster_pg]
-  # backup_retention_period = var.rds_backup_retention_period
+  backup_retention_period = var.rds_backup_retention_period
 }
 
 output "db_cluster_arn" {

@@ -1,5 +1,5 @@
 variable "instance_count" {
-  default = "1" # 3
+  default = "3"
 }
 
 variable "project_root_directory" {}
